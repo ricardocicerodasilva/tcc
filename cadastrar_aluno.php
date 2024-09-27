@@ -213,7 +213,7 @@ input[type="submit"]:hover {
 
         <div class="form-group">
             <label for="telefone">Telefone:</label>
-            <input type="date" id="telefone" name="telefone" required>
+            <input type="text" id="telefone" name="telefone" required>
         </div>
 
         <div class="form-group">

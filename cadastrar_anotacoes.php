@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atualizar Aluno </title>
+    <title>Anotações </title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -40,7 +40,7 @@
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            background-image: url('assets/imgcadastro.jpg');
+            background-image: url('imgcadastro.jpg');
             background-repeat: no-repeat;
           /*  background-attachment: fixed;*/
             background-size: auto; /* Ajusta a largura para 100% e a altura para 50% */
@@ -125,7 +125,7 @@ input[type="submit"]:hover {
 
         input[type="submit"] {
     background-color: #4CAF50;
-  /*/  width: 50%;*/
+  /* width: 50%;*/
     color: white;
     justify-content:center;
     padding: 12px 20px;
@@ -137,7 +137,7 @@ input[type="submit"]:hover {
     text-align: center;
     position: relative;
     display: flex;
-    left:200px;
+    right:50px;
     
 }
 .button-container {
@@ -193,39 +193,17 @@ input[type="submit"]:hover {
 <body>
     <img class="image" src="assets/ninive.png" alt="Descrição da Imagem">
 
-    <h2>Atualizar Aluno</h2>
+    <h2>Anotações</h2>
 
-    <form action="atualizar_aluno.php" method="post" class="formulario">
-    <div class="form-group">
-            <label for="rm">Rm Aluno:</label>
-            <input type="text" id="rm" name="rm" required>
-        </div>  <br>
-    
-   
+    <form action="anotacoes.php" method="post" class="text">
+        
         <div class="form-group">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-        </div>
-
-        <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required>
-        </div>
-
-        <div class="form-group">
-            <label for="telefone">Telefone:</label>
-            <input type="text" id="telefone" name="telefone" required>
-        </div>
-
-        <div class="form-group">
-            <label for="periodo">Período:</label>
-            <input type="text" id="periodo" name="periodo" required>
-        </div>
-
-
+            <label for="anotacoes">Digite a Mensagem:</label>
+            <textarea id="anotacoes" name="anotacoes" rows="4" required></textarea>
+        </div><br>
 
         <div class="button-container">
-    <input type="submit" value="Atualizar">
+    <input type="submit" value="Cadastrar">
 </div>
 
     </form>

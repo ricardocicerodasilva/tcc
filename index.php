@@ -383,7 +383,7 @@
             <li>
                 <a href="#">Anotações</a>
                 <ul class="submenu">
-                    <li><a href="#">Adicionar anotações</a></li>
+                    <li><a href="cadastrar_anotacoes.php">Adicionar anotações</a></li>
                     <li><a href="#">Listar anotações</a></li>
                 </ul>
             </li>
